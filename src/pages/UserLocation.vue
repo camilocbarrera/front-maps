@@ -119,7 +119,7 @@ export default {
             + lat 
             + "," 
             + long 
-            + "&key=AIzaSyBC_daFMVouWJUX9tTE4emXr1poxhQxWAg").then(response => {
+            + "&key=API_KEY").then(response => {
                 if(response.data.error_message) {
                     this.error = response.data.error_message;
                     console.log(response.data.error_message);
