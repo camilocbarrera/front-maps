@@ -3,6 +3,7 @@
 > A Vue.js project
 
 ## Build Setup
+This project its about map aplications with google API
 
 ``` bash
 # install dependencies
